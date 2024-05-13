@@ -1,0 +1,24 @@
+body {
+    background-color: #444444;
+    color: white;
+}
+
+a:link {
+    color: #ac8fd1
+}
+
+a:visited {
+    color: #8862b9
+}
+
+a:hover {
+    color: #cbb5e8
+}
+
+a:active {
+    color: #cbb5e8
+}
+
+#logo {
+    height: 0.8em;
+}
