@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [[ -f "./.env/bin/python" ]]
+then
+    ./.env/bin/python -m flask run
+else
+    echo "environment unavailable, run ./install"
+    exit 1
+fi
