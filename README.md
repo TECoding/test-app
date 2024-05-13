@@ -17,3 +17,8 @@ Servidor web de prueba para el taller de despliegue de aplicaciones en la nube
     ```bash
     ./scripts/start
     ```
+
+- Desinstalar entorno de desarrollo y ejecución:
+    ```bash
+    ./scripts/uninstall
+    ```
