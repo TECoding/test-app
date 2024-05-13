@@ -4,6 +4,6 @@ if [[ -f "./.env/bin/python" ]]
 then
     ./.env/bin/python -m flask run --host 0.0.0.0 --port 3601
 else
-    echo "environment unavailable, run ./install"
+    echo "environment unavailable, run ./scripts/install"
     exit 1
 fi
