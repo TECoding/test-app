@@ -2,7 +2,7 @@
 
 if [[ -f "./.env/bin/python" ]]
 then
-    ./.env/bin/python -m flask run
+    ./.env/bin/python -m flask run --host 0.0.0.0
 else
     echo "environment unavailable, run ./install"
     exit 1
